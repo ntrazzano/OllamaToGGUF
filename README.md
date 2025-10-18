@@ -1,3 +1,37 @@
+# Ollama to GGUF Converter
+
+Convert Ollama models to standalone GGUF files.
+
+## Installation
+
+```bash
+pip install -e .
+```
+
+
+## Usage
+```
+Usage: ollama-to-gguf [OPTIONS] COMMAND [ARGS]...
+
+  Ollama to GGUF Converter
+
+  Convert Ollama models to standalone GGUF files.
+
+Options:
+  --version  Show the version and exit.
+  --help     Show this message and exit.
+
+Commands:
+  export      Export a specific Ollama model to GGUF format.
+  export-all  Export all available Ollama models to GGUF format.
+  list        List all available Ollama models.
+```
+
+
+
+---
+# Original README
+
 # OllamaToGGUF
 Convert a downloaded Ollama model back into its GGUF equivalent format.
 
